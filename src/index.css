@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Sora:wght@600;700;800&display=swap');
+@import "tailwindcss";
+
+:root {
+  --navy: #0B1220;
+  --navy-light: #111C33;
+  --navy-soft: #1A2A4A;
+  --accent: #F59E0B;
+  --accent-hover: #D97706;
+  --accent-soft: #FFF7ED;
+  --muted: #64748B;
+  --line: #E2E8F0;
+}
+
+* { scroll-behavior: smooth; }
+
+html, body {
+  font-family: 'Manrope', system-ui, sans-serif;
+  background: #FFFFFF;
+  color: #0F172A;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1,h2,h3 {
+  font-family: 'Sora', sans-serif;
+  letter-spacing: -0.03em;
+}
+
+::selection { background: #F59E0B; color: white; }
+
+/* custom scrollbar */
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-thumb { background: #CBD5E1; border-radius: 999px; }
+::-webkit-scrollbar-track { background: #F8FAFC; }
+
+/* shimmer */
+@keyframes shimmer {
+  0% { transform: translateX(-100%); }
+  100% { transform: translateX(200%); }
+}
+@keyframes float {
+  0%,100% { transform: translateY(0px); }
+  50% { transform: translateY(-8px); }
+}

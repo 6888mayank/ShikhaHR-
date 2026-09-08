@@ -1,0 +1,25 @@
+<svg width="300" height="140" viewBox="0 0 300 140" xmlns="http://www.w3.org/2000/svg">
+  <!-- transparent background -->
+  <!-- SHS Text -->
+  <g font-family="Sora, sans-serif" font-weight="800" font-size="92" letter-spacing="-4">
+    <text x="12" y="95" fill="#0A1931" style="font-style: italic;">S</text>
+    <text x="78" y="95" fill="#B68A3C" style="font-style: italic;">H</text>
+    <text x="158" y="95" fill="#0A1931" style="font-style: italic;">S</text>
+  </g>
+  <!-- Top small gold accent -->
+  <path d="M 205 12 L 245 2 L 228 18 Z" fill="#B68A3C"/>
+  <path d="M 250 6 L 280 0 L 265 12 Z" fill="#0A1931"/>
+  <!-- Main swoosh - gold base -->
+  <path d="M 8 118 Q 40 140 110 120 Q 180 100 255 28" fill="none" stroke="#B68A3C" stroke-width="9" stroke-linecap="round" opacity="0.95"/>
+  <!-- Dark blue overlay swoosh -->
+  <path d="M 12 102 Q 50 122 115 108 Q 185 88 258 24" fill="none" stroke="#0A1931" stroke-width="7" stroke-linecap="round"/>
+  <!-- White highlight -->
+  <path d="M 115 108 Q 165 92 210 55" fill="none" stroke="white" stroke-width="1.2" opacity="0.7" stroke-linecap="round"/>
+  <!-- PVT LTD -->
+  <g font-family="Sora, sans-serif" font-weight="700" font-size="16" letter-spacing="8" fill="#0A1931">
+    <text x="52" y="135">PVT. LTD.</text>
+  </g>
+  <!-- decorative lines -->
+  <line x1="18" y1="133" x2="70" y2="133" stroke="#B68A3C" stroke-width="1.2"/>
+  <line x1="210" y1="133" x2="262" y2="133" stroke="#B68A3C" stroke-width="1.2"/>
+</svg>
