@@ -1,0 +1,47 @@
+<svg width="600" height="600" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+  <rect width="600" height="600" fill="white"/>
+  <!-- Outer wheel -->
+  <g transform="translate(300,300)">
+    <!-- Slices - 8 x 45deg starting at -90deg -->
+    <!-- Access Management - top (blue) -->
+    <path d="M 0,-240 A 240,240 0 0,1 169.7,-169.7 L 70.7,-70.7 A 100,100 0 0,0 0,-100 Z" fill="#2F6BCE"/>
+    <!-- Asset Management - top-right (orange) -->
+    <path d="M 169.7,-169.7 A 240,240 0 0,1 240,0 L 100,0 A 100,100 0 0,0 70.7,-70.7 Z" fill="#E67E22"/>
+    <!-- Awareness Training - right (gray) -->
+    <path d="M 240,0 A 240,240 0 0,1 169.7,169.7 L 70.7,70.7 A 100,100 0 0,0 100,0 Z" fill="#8E9AA6"/>
+    <!-- Business Continuity - bottom-right (yellow/gold) -->
+    <path d="M 169.7,169.7 A 240,240 0 0,1 0,240 L 0,100 A 100,100 0 0,0 70.7,70.7 Z" fill="#D4A017"/>
+    <!-- Incident Response - bottom (light blue) -->
+    <path d="M 0,240 A 240,240 0 0,1 -169.7,169.7 L -70.7,70.7 A 100,100 0 0,0 0,100 Z" fill="#5AA9E6"/>
+    <!-- Risk Management - bottom-left (green) -->
+    <path d="M -169.7,169.7 A 240,240 0 0,1 -240,0 L -100,0 A 100,100 0 0,0 -70.7,70.7 Z" fill="#6DBE45"/>
+    <!-- Security Standards - left (navy) -->
+    <path d="M -240,0 A 240,240 0 0,1 -169.7,-169.7 L -70.7,-70.7 A 100,100 0 0,0 -100,0 Z" fill="#1E3A5F"/>
+    <!-- Vendor Management - top-left (brown) -->
+    <path d="M -169.7,-169.7 A 240,240 0 0,1 0,-240 L 0,-100 A 100,100 0 0,0 -70.7,-70.7 Z" fill="#8B4513"/>
+    <!-- Center white circle -->
+    <circle r="105" fill="white" stroke="#E5E7EB" stroke-width="1"/>
+    <!-- Center text -->
+    <text x="0" y="-18" text-anchor="middle" font-family="monospace" font-size="38" font-weight="700" fill="black">System</text>
+    <text x="0" y="28" text-anchor="middle" font-family="monospace" font-size="38" font-weight="700" fill="black">Security</text>
+    <!-- Labels -->
+    <g font-family="Arial, sans-serif" font-weight="700" font-size="19" fill="white" text-anchor="middle">
+      <!-- Vendor Management - top-left -->
+      <text x="-115" y="-150"><tspan x="-115" dy="0">Vendor</tspan><tspan x="-115" dy="22">Management</tspan></text>
+      <!-- Access Management - top -->
+      <text x="85" y="-155"><tspan x="85" dy="0">Access</tspan><tspan x="85" dy="22">Management</tspan></text>
+      <!-- Asset Management - top-right -->
+      <text x="175" y="-55"><tspan x="175" dy="0">Asset</tspan><tspan x="175" dy="22">Management</tspan></text>
+      <!-- Awareness Training - right -->
+      <text x="175" y="75"><tspan x="175" dy="0">Awareness</tspan><tspan x="175" dy="22">Training</tspan></text>
+      <!-- Business Continuity - bottom-right -->
+      <text x="85" y="165"><tspan x="85" dy="0">Business</tspan><tspan x="85" dy="22">Continuity</tspan></text>
+      <!-- Incident Response - bottom -->
+      <text x="-85" y="175"><tspan x="-85" dy="0">Incident</tspan><tspan x="-85" dy="22">Response</tspan></text>
+      <!-- Risk Management - bottom-left -->
+      <text x="-170" y="70"><tspan x="-170" dy="0">Risk</tspan><tspan x="-170" dy="22">Management</tspan></text>
+      <!-- Security Standards - left -->
+      <text x="-170" y="-65"><tspan x="-170" dy="0">Security</tspan><tspan x="-170" dy="22">Standards</tspan></text>
+    </g>
+  </g>
+</svg>

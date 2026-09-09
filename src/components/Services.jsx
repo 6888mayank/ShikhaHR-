@@ -26,7 +26,7 @@ const services = [
     title: 'Security & Support Services',
     desc: 'Reliable, compliant and technology-enabled support services to keep your operations secure and efficient.',
     bullets: ['Security Services', 'Single-Service Outsourcing', 'Integrated FM Contracts', 'Dedicated Account Manager'],
-    image: 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=800&auto=format&fit=crop',
+    image: '/system-security.svg',
     accent: 'bg-slate-700',
   },
 ]
@@ -105,9 +105,13 @@ export default function Services() {
               className="group relative bg-white rounded-[28px] border border-slate-200 overflow-hidden hover:shadow-[0_20px_60px_rgba(0,0,0,0.08)] hover:border-slate-300 hover:-translate-y-1 transition-all duration-300 flex flex-col"
             >
               {/* Image */}
-              <div className="relative h-[220px] overflow-hidden">
-                <img src={s.image} alt={s.title} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent" />
+              <div className={`relative h-[220px] overflow-hidden ${s.image.endsWith('.svg') ? 'bg-white' : ''}`}>
+                <img
+                  src={s.image}
+                  alt={s.title}
+                  className={`${s.image.endsWith('.svg') ? 'w-full h-full object-contain bg-white p-4' : 'w-full h-full object-cover'} group-hover:scale-105 transition-transform duration-700`}
+                />
+                <div className={`absolute inset-0 ${s.image.endsWith('.svg') ? 'bg-gradient-to-t from-black/5 to-transparent' : 'bg-gradient-to-t from-black/70 via-black/20 to-transparent'}`} />
                 <div className="absolute top-4 left-4 bg-white/90 backdrop-blur rounded-full px-3 py-1 text-[11px] font-extrabold tracking-widest text-[#0B1220]">
                   SERVICE — {s.id}
                 </div>
