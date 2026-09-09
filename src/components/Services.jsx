@@ -8,7 +8,7 @@ const services = [
     title: 'Manpower Solutions',
     desc: 'Skilled and unskilled workforce solutions across diverse sectors — scalable, compliant and ready to deploy.',
     bullets: ['Skilled Workforce', 'Semi-Skilled Workforce', 'Unskilled Workforce', 'Project-Based Staffing'],
-    image: 'https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?q=80&w=800&auto=format&fit=crop',
+    image: '/manpower.svg',
     accent: 'bg-[#0B1220]',
   },
   {
